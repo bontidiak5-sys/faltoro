@@ -1,0 +1,30 @@
+body {
+    margin : 0 ;
+    padding : 0 ;
+    background : #000 ;
+    font-family : "Arial" , sans-serif ;
+    display : flexible ;
+    align-content : center ;
+    align-items : center ;
+    height : 100vh ;
+    overflow : hidden ;
+}
+#game-container {
+    position : relative ;
+    text-align : center ;
+}
+
+ #game-canvas {
+    border : 2px  solid  #fff ;
+    background : #000 ;
+}
+
+ #score {
+    position : absolute ;
+    top : 10 pixels ;
+    left : 50% ;
+    transform : translateX ( -50% );
+    color : #fff ;
+    font-size : 24px ;
+    font-weight : bold ;
+}
